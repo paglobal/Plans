@@ -1,0 +1,48 @@
+{
+  {
+  "VisionInstance": {
+    "CodeEditor": {
+      "Enabled": true,
+      "Theme": "dark/light"
+    },
+    "VideoHub": {
+      "Enabled":true,
+      "Theme": "dark/light"
+    },
+    "InteractiveCanvas": true,
+    "Enabled": true,
+    "Theme": "dark/light",
+    "CanvasType": "vectorsMatricesAndTransformations/functionsAndCalculus/electronicsAndLogicGates/electricityAndCircuits/staticsAndKinematics/electrostatics"
+  }
+},
+  {
+    "CodeEditor": {
+      "Editor": "new Editor()"
+    }
+  },
+  {
+    "VideoHub": {
+      "VideoPlayers": "new map()"
+    }
+  },
+  {
+    "InteractiveCanvas": {
+      "GridType": "vMTGrid",
+      "Elements": {
+        "matrices": "new Map()",
+        "vectors": "new Map()",
+        "andGates": "new Map()",
+        "notGates": "new Map()",
+        "orGates": "new Map()",
+        "nandGates": "new Map()",
+        "functions": "new Map()",
+        "derivatives": "new Map()",
+        "integrals": "new Map()",
+        "electrons": "new Map()",
+        "protons": "new Map()",
+        "particles": "new Map()",
+        "objects": "new Map()"
+      }
+    }
+  }
+}
